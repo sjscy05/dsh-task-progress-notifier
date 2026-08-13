@@ -1,0 +1,19 @@
+{
+  "name": "dsh-task-progress-notifier",
+  "version": "0.1.0",
+  "description": "DeepSeek Harness plugin: track todo_write progress and pop native desktop reminders (bottom-right).",
+  "type": "module",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "notify.js",
+    "cordis.patch.yml",
+    "README.md"
+  ],
+  "license": "MIT",
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}

@@ -1,0 +1,3 @@
+- insert:
+    - id: task-progress-notifier
+      name: dsh-task-progress-notifier
