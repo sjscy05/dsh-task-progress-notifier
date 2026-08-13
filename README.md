@@ -20,10 +20,10 @@ A DeepSeek Harness plugin that tracks the agent's `todo_write` task list and pop
 From a machine with `dsh` installed:
 
 ```sh
-dsh plugin --profile <name> add github:<you>/dsh-task-progress-notifier
+dsh plugin --profile <name> add github:sjscy05/dsh-task-progress-notifier
 ```
 
-(Replace `<you>` with the GitHub account that hosts this repo, and `<name>` with the profile you want the plugin in.)
+(`<name>` is the profile you want the plugin in.)
 
 Or install straight from a checkout:
 
